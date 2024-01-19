@@ -38,7 +38,7 @@ In this project you will keep working on the Quotes app. Right now the applicati
 
 #### 👉 TASK 1 - Study the UI and the code
 
-The functionality of the app must match the one in [this prototype](https://bloominstituteoftechnology.github.io/W_S10_M1_Project/). Note that the prototype is using the reducer hook: you must achieve the same results **using Redux Toolkit instead**.
+The functionality of the app must match the one in [this prototype](https://bloominstituteoftechnology.github.io/W_S10_M1_Project/). Note that the prototype is using the reducer hook to manage state: you must achieve the same results **using Redux Toolkit**.
 
 #### 👉 TASK 2 - Wire Redux to the application
 
@@ -54,13 +54,13 @@ Inside [Quotes.js](./frontend/components/Quotes.js) use a selector to obtain in 
 
 #### 👉 TASK 4 - Flesh out the actions
 
-❗ Note that tasks 4 and 5 can be done in parallel
+❗ Note that tasks 4 and 5 can be done in parallel.
 
 Revisit [quotesSlice.js](./frontend/state/quotesSlice.js) and **create reducers** for the different actions that can affect global state. In order of increasing difficulty, these would be:
 
 1. `toggleVisibility` toggles whether to show all quotes or only authentic ones.
-2. `deleteQuote` removes the quote by a given id.
-3. `editQuoteAuthenticity` toggles the `apocryphal` property of a quote of a given id.
+2. `deleteQuote` removes a quote by the given id.
+3. `editQuoteAuthenticity` toggles the `apocryphal` property of a quote by the given id.
 4. `setHighlightedQuote` sets a quote id (or null) as the highlighted quote.
 5. `createQuote` creates a quote of given `quoteText` and `authorName`, defaulting `apocryphal` to false.
 
@@ -77,14 +77,14 @@ This step is only required if you need help getting started or get stuck at any 
 <details>
   <summary>I feel very stuck. What can I do?</summary>
 
-Check out the Solution Video for this project in your learning platform. In it, an industry expert will walk you through their thinking in detail while they solve the tasks. The Solution Videos are highly recommended even if you are not stuck: you will learn lots of tricks.
+Redo the Guided Project for the module, or check out the Solution Video for this project. In these recordings, an industry expert walks you through their thinking in detail, while they solve the tasks.
 
 </details>
 
 <details>
   <summary>I am getting errors when I run npm install. What is going on?</summary>
 
-This project requires Node to be correctly installed on your computer to work. Sometimes Node can be installed but misconfigured. Try deleting `node_modules` and running `npm install`. If that fails, try deleting both `node_modules` and `package-lock.json` before reinstalling. If all fails, please request support!
+This project requires Node >= V18 correctly installed in order to work. Sometimes Node can be misconfigured. Try deleting `node_modules` and running `npm install`. If this fails, try deleting both `node_modules` and `package-lock.json` before reinstalling. If all fails, please request support!
 
 </details>
 
@@ -105,7 +105,7 @@ You can edit the CSS of the project to give it a personal touch so you can add i
 <details>
   <summary>My page does not work! How do I debug it?</summary>
 
-Remember to use console.logs and breakpoints to troubleshoot your code. Do not panic if you see errors in the console, just read them carefully looking for clues.
+Remember to use console.logs and breakpoints to troubleshoot your code. Do not panic if you see errors in the console, just read them carefully looking for clues. Also keep an eye on the Redux DevTools.
 
 </details>
 
