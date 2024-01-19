@@ -15,7 +15,7 @@
 
 ## ✨ Prototype
 
-[Link to a working prototype.](https://bloominstituteoftechnology.github.io/W_S10_M1_Project/)
+[LINK](https://bloominstituteoftechnology.github.io/W_S10_M1_Project/) to a working prototype.
 
 ## ✨ Instructions
 
