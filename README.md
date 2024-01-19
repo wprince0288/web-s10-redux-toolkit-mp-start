@@ -15,7 +15,7 @@
 
 ## ✨ Prototype
 
-[Working app](https://bloominstituteoftechnology.github.io/W_S10_M1_Project/)
+[Link to a working prototype.](https://bloominstituteoftechnology.github.io/W_S10_M1_Project/)
 
 ## ✨ Instructions
 
@@ -25,11 +25,11 @@ In this project you will keep working on the Quotes app. Right now the applicati
 
 ### 🥷 Tasks
 
-**Important notes about your tasks:**
+**❗ Preliminary notes about your tasks:**
 
 - Watch the first minutes of the **Solution Video** if you need help getting started.
-- There is no need to install any NPM dependencies.
-- You will make changes to five modules - this is roughly the order:
+- There is no need to install any extra NPM dependencies.
+- You will make changes to five files - roughly in this order:
   1. [quotesSlice.js](./frontend/state/quotesSlice.js)
   2. [store.js](./frontend/state/store.js)
   3. [index.js](./frontend/index.js)
@@ -38,7 +38,7 @@ In this project you will keep working on the Quotes app. Right now the applicati
 
 #### 👉 TASK 1 - Study the UI and the code
 
-The functionality of the app must match the one in [this prototype](https://bloominstituteoftechnology.github.io/W_S10_M1_Project/). Note that the prototype is using the reducer hook to manage state: you must achieve the same results **using Redux Toolkit**.
+The functionality of the app must match the one in [the prototype](https://bloominstituteoftechnology.github.io/W_S10_M1_Project/). Note that the prototype is using the reducer hook to manage state: you must achieve the same results **using Redux Toolkit**.
 
 #### 👉 TASK 2 - Wire Redux to the application
 
@@ -54,7 +54,7 @@ Inside [Quotes.js](./frontend/components/Quotes.js) use a selector to obtain in 
 
 #### 👉 TASK 4 - Flesh out the actions
 
-❗ Note that tasks 4 and 5 can be done in parallel.
+❗ Note that this task and the next one (wiring actions to components) can be done in parallel.
 
 Revisit [quotesSlice.js](./frontend/state/quotesSlice.js) and **create reducers** for the different actions that can affect global state. In order of increasing difficulty, these would be:
 
