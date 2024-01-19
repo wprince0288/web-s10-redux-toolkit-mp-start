@@ -1,4 +1,4 @@
-# Redux Toolkit Module Project Start
+# Redux Toolkit Module Project
 
 ## ✨ Requirements
 
